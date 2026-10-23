@@ -57,19 +57,19 @@ The monitoring stack was deployed using Helm via the `kube-prometheus-stack` ins
 
 * **Local Service Access:** Attained securely via `kubectl port-forward`:
 
-  ![cluster](./assets/03-aws-eks-cluster.png)
+  ![cluster](./screenshots/03-aws-eks-cluster.png)
 
-  ![cluster2](./assets/03-aws-eks-cluster2.png)
+  ![cluster2](./screenshots/03-aws-eks-cluster2.png)
 
   * **Grafana:** `kubectl port-forward svc/kube-prometheus-stack-grafana 3000:80 -n logging`
 
-    ![grafana](./assets/02-grafana-promql-explore.png)
+    ![grafana](./screenshots/02-grafana-promql-explore.png)
 
   * **Alertmanager:** `kubectl port-forward svc/kube-prometheus-stack-alertmanager 9093:9093 -n logging`
 
-    ![alertfire](./assets/01-alertmanager-firing.png)
+    ![alertfire](./screenshots/01-alertmanager-firing.png)
 
-    ![alertfire2](./assets/01-alertmanager-firing2.png)
+    
 
 ## 🧪 Chaos Engineering & Resilience Testing
 
