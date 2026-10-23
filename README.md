@@ -12,7 +12,7 @@ The application architecture utilizes standard Kubernetes microservices deployed
 
 * **Cloud Provider:** Amazon Web Services (AWS)
 
-* **Container Orchestration:** AWS EKS (`voting-app-cluster`)
+* **Container Orchestration:** AWS EKS (`voting-capstone-eks`)
 
 * **Namespace:** `robot-shop`
 
