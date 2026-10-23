@@ -36,9 +36,9 @@ To strike a balance between real-world enterprise CI/CD practices and strict **c
 
    * Pushing to the main branch triggers automated checks and securely communicates with EKS to deploy workloads via `kubectl` and `Helm`.
 
-     ![Github-pipe](./assets/04-github-actions-pipeline.png)
+     ![Github-pipe](./screenshots/04-github-actions-pipeline.png)
 
-     ![Github-pipe2](./assets/04-github-actions-pipeline2.png)
+     ![Github-pipe2](./screenshots/04-github-actions-pipeline2.png)
 
 ## 📊 Observability & Monitoring Setup
 
